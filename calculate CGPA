@@ -1,0 +1,15 @@
+
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+    Scanner scan=new Scanner(System.in);
+    System.out.println("enter ur subject1 marks");
+    float subject1=scan.nextFloat();
+    System.out.println("enter ur subject2 marks");
+    float subject2=scan.nextFloat();
+    System.out.println("enter ur subject3 marks");
+    float subject3=scan.nextFloat();
+    float CGPA=(subject1+subject2+subject3)/30;
+    System.out.println("CGPA obtained by student: "+CGPA);
+    }
+}
