@@ -1,0 +1,11 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        char grade='B';
+        // encrypting the grade so that it will be hide
+        grade=(char)(grade+8);
+        System.out.println(grade);
+        // decrypting the grade abd knwog the correct grade
+        grade=(char)(grade-8);
+        System.out.println(grade);
+    }
+}
