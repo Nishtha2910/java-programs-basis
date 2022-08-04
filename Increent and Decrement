@@ -10,5 +10,11 @@ class HelloWorld {
     System.out.println("first print the value :"+y+" then decrement :" +x);
     int z=--x;
     System.out.println("first decrement :"+z+ " then print the value :"+x);
+    
+    
+       // increment and drecrement using with operators
+    int num=7;
+    int num2= ++num + 8;
+    System.out.println(num2);
     }
 }
