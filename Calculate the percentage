@@ -1,0 +1,30 @@
+
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+        float result=0;
+    System.out.println("THE RESULT IS DECLARED");
+    Scanner scan=new Scanner(System.in);
+    System.out.println("enter the total marks");
+    int total_marks=scan.nextInt();
+    System.out.println("enter the marks if subject 1");
+    float subject1=scan.nextFloat();
+    result=result+subject1;
+    System.out.println("enter the marks if subject 2");
+    float subject2=scan.nextFloat();
+      result=result+subject2;
+    System.out.println("enter the marks if subject 3");
+    float subject3=scan.nextFloat();
+      result=result+subject3;
+    System.out.println("enter the marks if subject 4");
+    float subject4=scan.nextFloat();
+      result=result+subject4;
+    System.out.println("enter the marks if subject 5");
+    float subject5=scan.nextFloat();
+      result=result+subject5;
+    float grandTotal=(result*100)/(total_marks*5);
+    System.out.println("your percentage u got :" +grandTotal+"%");
+    
+    
+    }
+}
