@@ -1,0 +1,14 @@
+class HelloWorld {
+    public static void main(String[] args) {
+    int a=5;
+    int b=a++;
+    System.out.println("first print : " +b+ " then increment :" +a);
+    int d=++a;
+    System.out.println("first increment :" +d+" then print :"+a);
+    int x=4;
+    int y=x--;
+    System.out.println("first print the value :"+y+" then decrement :" +x);
+    int z=--x;
+    System.out.println("first decrement :"+z+ " then print the value :"+x);
+    }
+}
