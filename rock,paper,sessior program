@@ -1,0 +1,42 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Random;
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("hey...how are your let's play rock paper sessior");
+        System.out.println("are u ready..? ");
+        System.out.println("would u like to start first its your turn");
+        System.out.println("choose 0 for rock");
+        System.out.println("choose 1 for paper"); 
+        System.out.println("choose 2 for sessior");
+        Scanner scan=new Scanner(System.in);
+        int player=scan.nextInt(3);
+        System.out.println("its my turn..");
+        Random rand=new Random();
+        int computer=rand.nextInt(3);
+        System.out.println("i choose "+computer);
+        if (player==computer){
+            System.out.println("Draw");
+        }
+        else if(player==0 && computer ==2){
+            System.out.println("rock beats sessior hence you win");
+        }
+         else if(player==2 && computer ==1){
+            System.out.println("sessior beats paper hence you win");
+        }
+        else if(player==1 && computer ==0){
+            System.out.println("paper beats rock hence you win");
+        }
+         else if(player==2 && computer ==0){
+            System.out.println("rock beats sessior hence computer win");
+        }
+         else if(player==1 && computer ==2){
+            System.out.println("sessior beats paper hence computer win");
+        }
+         else if(player==0 && computer ==1){
+            System.out.println("paper beats rock hence computer win");
+        }
+
+    }
+}
