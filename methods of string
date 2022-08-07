@@ -49,7 +49,12 @@ class HelloWorld {
     System.out.println(name.lastIndexOf('h'));
     // always return -1 if the character is not exist in string
     System.out.println(name.lastIndexOf('j'));
-    
+     // equals
+        System.out.println(name.equals("Nishtha"));
+        // equales ignorecase
+        System.out.println(name.equalsIgnoreCase("NISHtha"));
+        System.out.println(name.equalsIgnoreCase("nishta"));
+    }
     
     }
 }
